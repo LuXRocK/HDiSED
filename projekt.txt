@@ -1,0 +1,689 @@
+SPECYFIKACJE TECHNICZNE
+WYKONANIA I ODBIORU ROBÓT
+ST-00.03 Sieć wodociągowa
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+SPIS TREŚCI
+1. WSTĘP .............................................................................................................................................. 36
+1.1. Przedmiot specyfikacji technicznej ................................................................................................. 36
+1.2. Zakres stosowania specyfikacji technicznej ................................................................................... 36
+1.3. Zakres robót objętych specyfikacją techniczną .............................................................................. 36
+1.4. Określenia podstawowe ................................................................................................................. 36
+2. MATERIAŁY ...................................................................................................................................... 36
+2.1. Wymagania dotyczące materiałów ................................................................................................. 36
+2.2. Rury ................................................................................................................................................ 37
+2.3. Armatura, kształtki żeliwne i hydranty ............................................................................................ 37
+2.4. Piasek na podsypkę i obsypkę rur .................................................................................................. 38
+2.5. Materiały izolacyjne ........................................................................................................................ 38
+2.6. Składowanie materiałów ................................................................................................................. 38
+2.7. Odbiór materiałów na budowie ....................................................................................................... 39
+3. SPRZĘT ............................................................................................................................................. 39
+4. TRANSPORT .................................................................................................................................... 39
+5. WYKONANIE ROBÓT ...................................................................................................................... 40
+5.1. Zasady wykonania robót................................................................................................................. 40
+5.2. Roboty przygotowawcze................................................................................................................. 40
+5.3. Roboty ziemne – wykopy................................................................................................................ 40
+5.4. Przygotowanie podłoża .................................................................................................................. 40
+5.5. Roboty montażowe ......................................................................................................................... 41
+5.6. Roboty montażowe –skrzyżowania rur z instalacjami .................................................................... 42
+5.7. Roboty ziemne – zasypy ................................................................................................................ 43
+6. KONTROLA JAKOŚCI ROBÓT ....................................................................................................... 43
+6.1. Ogólne zasady kontroli jakości robót .............................................................................................. 43
+6.2. Kontrola, pomiary i badania ............................................................................................................ 44
+7. OBMIAR ROBÓT .............................................................................................................................. 45
+8. PRZEJĘCIE ROBÓT ......................................................................................................................... 45
+8.1. Ogólne zasady przejęcia robót ....................................................................................................... 45
+8.2. Badania przy odbiorze .................................................................................................................... 45
+8.3. Odbiór robót zanikających i ulegających zakryciu .......................................................................... 45
+8.4. Odbiór techniczny częściowy. ........................................................................................................ 45
+8.5. Odbiór techniczny końcowy ............................................................................................................ 46
+9. PODSTAWA PŁATNOŚCI ................................................................................................................ 46
+10. PRZEPISY ZWIĄZANE ..................................................................................................................... 47
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+1. WSTĘP
+1.1. Przedmiot specyfikacji technicznej
+Przedmiotem niniejszej specyfikacji technicznej są wymagania dotyczące wykonania i odbioru robót
+związanych z budową sieci wodociągowej wraz z hydrantami i przyłączami.
+1.2. Zakres stosowania specyfikacji technicznej
+Specyfikacja techniczna stanowi dokument przetargowy i kontraktowy przy zlecaniu i realizacji robót
+wymienionych w punkcie 1.1.
+1.3. Zakres robót objętych specyfikacją techniczną
+Ustalenia zawarte w niniejszej specyfikacji dotyczą zasad prowadzenia robót związanych
+z wykonaniem odcinka wodociągu. W zakres tych robót wchodzą:
+- roboty przygotowawcze,
+- roboty montażowe sieciowe,
+- budowa hydrantów naziemnych,
+- roboty montażowe przyłączy,
+- próba szczelności,
+- dezynfekcja i płukanie,
+- kontrola jakości.
+Określenia podstawowe
+Sieci wodociągowe. Przewód stanowiący całość techniczno-użytkową albo jego część stanowiąca
+odrębny element konstrukcyjny lub technologiczny przeznaczony do transportu i dystrybucji wody pitnej.
+Przyłącz wodociągowy. Rurociąg stanowiący połączenie z siecią wodociągową doprowadzony na
+teren posesji, a docelowo do budynku i zakończony zestawem wodomierzowym, poprzez który możliwe
+będzie wykonanie podłączenia wewnętrznych instalacji wodociągowych.
+Kształtki. Wszelkie łączniki służące do zmian kierunków, średnic, rozgałęzień, itp. sieci.
+Hydrant podziemny, nadziemny. Urządzenie zamontowane na przewodach wodociągowych
+rozdzielczych służące celom przeciwpożarowym (przeciwpożarowe zaopatrzenie w wodę) lub do
+płukania sieci.
+Skrzyżowania. Miejsce przecięcia się rzutu poziomego wykonywanego obiektu liniowego i istniejącego
+uzbrojenia.
+Pozostałe określenia podstawowe są zgodne z obowiązującymi, odpowiednimi polskimi normami
+i z definicjami podanymi w specyfikacji technicznej „Wymagania ogólne" punkt 1.4.
+2. MATERIAŁY
+2.1. Wymagania dotyczące materiałów
+Ogólne wymagania dotyczące materiałów, ich pozyskiwania i składowania podano w ST-00.00
+„Wymagania ogólne” pkt 2.
+Wykonawca zobowiązany jest:
+- dostarczyć materiały zgodnie z wymaganiami specyfikacji technicznych. Materiały muszą być
+nowe i nieużywane,
+- wszystkie elementy sieci wodociągowej (rury, hydrantu, kształtki, itd.) wykonać z
+zachowaniem następujących parametrów:
+(cid:1) najwyższa szczelność i trwałość oraz odporność chemiczna połączeń,
+(cid:1) posiadanie odpowiednich aprobat technicznych i dopuszczeń do stosowania
+(deklarację zgodności wydaną przez dostawcę) na cały asortyment rur i kształtek
+użytych do budowy. Wymagane jest trwałe fabryczne oznakowanie wyrobów dla
+stwierdzenia, że deklaracja zgodności dotyczy konkretnej partii dostawy.
+36
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+- stosować wyroby produkcji krajowej lub zagranicznej posiadające aprobaty techniczne
+wydane przez odpowiednie Instytuty Badawcze,
+- powiadomić Inspektora nadzoru o proponowanych źródłach pozyskania materiałów przed
+rozpoczęciem dostawy i uzyskać jego akceptację.
+2.2. Rury
+Do budowy sieci wodociągowej należy zastosować rury zgodne z punktem 2.1 niniejszej specyfikacji
+i dokumentacją projektową.
+Rury o parametrach:
+- rury przewodowe sieciowe:
+(cid:1) rury ciśnieniowe z polietylenu twardego (PEHD) wg BN-74/6366-04 i BN-74/6366-
+03,
+(cid:1) zaleca się zastosowanie rur polietylenowych, ciśnieniowych PE100 SDR17 PN10
+o wymiarach rury 160x9,5mm (DN150), 110x6,6mm (DN100) przeznaczone do
+przesyłania wody;
+(cid:1) sposób łączenia: poprzez zgrzewanie elektrooporowe za pomocą muf lub
+doczołowo, złączki zaciskowe POLYRAC;
+- rury przyłączy wodociągowych:
+(cid:1) zaleca się zastosowanie rur polietylenowych, ciśnieniowych PE100 SDR17 PN10
+o średnicy Ø50x3,0mm lub Ø32x2,0mm przeznaczone do przesyłania wody;
+(cid:1) sposób łączenia: złączki zaciskowe POLYRAC;
+- posiadają Aprobatę Techniczną;
+- Deklaracje zgodności Producenta z normą lub Aprobatą Techniczną;
+- Atest Higieniczny.
+Kształtki. Kształtki z tworzyw sztucznych do rur ciśnieniowych z PE100.
+Bloki oporowe. Na załamaniach i rozgałęzieniach trasy należy stosować bloki oporowe według BN-
+81/9192-04 i BN-81/9192-05.
+2.3. Armatura, kształtki żeliwne i hydranty
+Armatura, kształtki żeliwne i hydranty według PN-92/M74001, PN-83/M74002, PN-83/H02651, PN-
+89/H02650, PN-85/H74307:
+Armatura:
+- Zasuwy kołnierzowe typu E DN150 miękkouszczelniająca zasuwa klinowa z żeliwa
+sferoidalnego; kołnierze zwymiarowane zgodnie z EN 1092-2 (DIN 28605),
+- Trójniki żeliwne równoprzelotowe i redukcyjne T, oraz zwężki dwukołnierzowe FFR z żeliwa
+sferoidalnego, epoksydowanego zgodne z EN 1563, kołnierze zwymiarowane wg EN 1092-2
+owiercone standardowo wg DIN 2501 - PN 10
+- króćce jednokołnierzowe FW (PN-84/H-74101).
+- króćce kielichowo-kołnierzowe E-KS (PN-84/H-74101)
+Zestaw hydrantowy (komplet):
+- żeliwny hydrant nadziemny HN 100, sztywny;
+- łuk kołnierzowy 90º ze stopką DN 100 z żeliwa sferoidalnego zgodne z EN 545, owiercenie
+standardowe wg DIN 2501 – PN 10;
+- zasuwa kołnierzowa typu E DN 100 miękkouszczelniająca zasuwa klinowa z żeliwa
+sferoidalnego z obudową i skrzynką uliczną; kołnierze zwymiarowane zgodnie
+z EN 1092-2 (DIN 28605);
+- króciec dwukołnierzowy kształtka FF 100 z żeliwa sferoidalnego zgodne z EN 545, owiercenie
+standardowe wg DIN 2501 – PN 10;
+- króciec jednokołnierzowy FW DN100 (PN-84/H-74101).
+37
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+Przyłącza wodociągowe:
+- podłączenie do sieci wodociągowej rozdzielczej należy wykonać za pomocą opaski i nawiertki
+samonawiercającej do rur ciśnieniowych wraz z zasuwą podziemną z wyprowadzeniem
+obudowy do zasuw do skrzynki ulicznej ustawionej na powierzchni terenu w osłonie żeliwnej;
+- projektowane podłączenia przyłączy należy wykonać z jednego kawałka rury (bez łączeń),
+a bosy koniec wyprowadzić poza terenem pasa drogowego w widoczny sposób ponad
+powierzchnię terenu i zaślepić z wykorzystaniem odpowiedniej złączki zaciskowej.
+2.4. Piasek na podsypkę i obsypkę rur
+Piasek na podsypkę i obsypkę rur powinien odpowiadać PN-87/B-01100.
+2.5. Materiały izolacyjne
+Kity olejowe i poliestrowe trwale plastyczne powinny odpowiadać BN-85/6753-02.
+2.6. Składowanie materiałów
+Wszystkie wyroby należy układać według poszczególnych grup, wielkości i gatunków w sposób
+zapewniający stateczność oraz umożliwiający dostęp do poszczególnych stosów lub pojedynczych
+elementów z uwzględnieniem wysokości składowania określonej przez producenta. Powierzchnia
+składowania powinna być utwardzona i zabezpieczona przed gromadzeniem się wód opadowych.
+Rury przewodowe. Rury z PE produkowane są jako rury w sztangach lub zwojach. Mogą być
+pakowane pojedynczo lub paletowane w wiązki. Rury wiązane są w pakiety z zastosowaniem
+drewnianych przekładek. Całość wiązana jest za pomocą taśmy we trzech miejscach w tym przy
+bosych końcach i kielichach. Końce rur są zabezpieczone zaślepkami (deklami) odpowiedniej średnicy,
+które powinny być usuwane dopiero w przypadku wykonywania połączenia. Rury należy składować w
+położeniu poziomym na płaskim i równym podłożu na podkładach drewnianych lub z innego materiału
+nie powodującego uszkodzenia rur, o szerokości nie mniejszej niż 0,1 metra i w odstępach 1-2 metrów.
+Rury o różnych średnicach i grubościach winny być składowane oddzielnie, a gdy nie jest tylko
+możliwe, rury o grubszej ściance winny znajdować się na spodzie. Rury powinny być składowane na
+równym podłożu na podkładach i przekładkach drewnianych, a wysokość stosu nie powinna
+przekraczać 1,5 m. Sposób składowania nie może powodować nacisku na kielichy rur powodując ich
+deformację. Zabezpieczenie przed rozsuwaniem się dolnej warstwy rur można dokonać za pomocą
+kołków i klinów drewnianych.
+Magazynowane rury powinny być zabezpieczone przed szkodliwymi działaniami promieni słonecznych
+(temperatura nie wyższa niż 40°C) i opadami atmosferycznymi. Dłuższe składowanie rur powinno
+odbywać się w pomieszczeniach zamkniętych lub zadaszonych. W przypadku uszkodzenia rur w czasie
+transportu i magazynowania należy części uszkodzone odciąć, a końce rur sfrezować. Przy pracach
+przeładunkowych należy stosować odpowiednie podnośniki i dźwigi zaopatrzone w odpowiednie
+zawiasy uniemożliwiające zaciskaniu się lin na rurach. Należy przy tego typu pracach stosować liny
+miękkie. Niedopuszczalne jest rzucanie rurami jak również ich przetaczanie i wleczenie.
+Kształtki, złączki, armatura. Kształtki, złączki i inne materiały (uszczelki, środki do czyszczenia, itp.)
+powinny być składowane w sposób uporządkowany z zachowaniem powyżej opisanych dla rur
+przewodowych środków ostrożności. Armatura, zabezpieczona przed wewnętrznym
+zanieczyszczeniem, powinna być składowana w pozycji uniemożliwiającej zbieranie się w niej wody.
+Armaturę przechowywać zgodnie z instrukcją producenta. Zasuwy i przepustnice powinny być
+częściowo otwarte lub uchylone.
+Kruszywo. Składowisko kruszywa powinno być zlokalizowane jak najbliżej wykonywanego odcinka
+wodociągu. Podłoże składowiska powinno być równe, utwardzone z odpowiednim odwodnieniem.
+Kruszywo powinno być zabezpieczone przed zanieczyszczeniem i zmieszaniem z innymi rodzajami
+i frakcjami kruszyw w czasie jego składowania i poboru.
+Cement. Cement należy składować w silosach lub w workach. Dla składowania cementu w workach.
+Wykonawca zapewni odpowiednie magazyny gwarantujące odizolowanie cementu od wilgoci. Czas
+przechowywania cementu nie może być dłuższy niż 3 miesiące (patrz norma: BN-88/6731-08).
+38
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+2.7. Odbiór materiałów na budowie
+Materiały należy dostarczyć na budowę wraz ze świadectwem jakości, kartami gwarancyjnymi
+i protokółami odbioru technicznego, atestami, aprobatami technicznymi, deklaracjami zgodności.
+Dostarczone materiały na miejsce budowy należy sprawdzić pod względem kompletności i zgodności
+z danymi producenta.
+Należy przeprowadzić oględziny dostarczonych materiałów. W razie stwierdzenia wad lub powstania
+wątpliwości ich jakości, przed wbudowaniem należy poddać badaniom określonym przez Inspektora
+nadzoru.
+3. SPRZĘT
+Do wykonania zamierzeń inwestycyjnych wymagany jest następujący sprzęt:
+- żurawie budowlane samochodowe,
+- koparki o pojemności łyżki 0,25 - 1,20m3,
+- spycharki kołowe lub gąsienicowe 75 i 100 kM,
+- koparko – ładowarki kołowe o pojemności łyżki 0,25m3
+- równiarka samojezdna 100 kM,
+- ubijak spalinowy 200 kg,
+- pozostały sprzęt do zagęszczania gruntu,
+- wciągarki ręczne,
+- wciągarki mechaniczne,
+- samochody skrzyniowe,
+- samochody samowyładowcze 5 t i 5-10 t,
+- sprężarkę powietrza spalinową 4 – 5 m3/min.,
+- beczkowozy,
+- urządzenie do montażu i demontażu rur,
+- przyrząd do ukosowania rur,
+- obcinarka do rur lub piła z szablonem,
+- pozostały niezbędny sprzęt techniczny.
+4. TRANSPORT
+Ogólne wymagania dotyczące transportu podano w specyfikacji technicznej „Wymagania ogólne" punkt
+4. Wykonawca zobowiązany jest do stosowania takich środków transportu, które pozwolą uniknąć
+uszkodzeń i odkształceń przewożonych materiałów.
+Materiały na budowę powinny być przewożone zgodnie z przepisami ruchu drogowego oraz BHP.
+Rodzaj oraz liczba środków transportu powinna gwarantować prowadzenie robót zgodnie z zasadami
+zawartymi w specyfikacjach technicznych i wskazaniami Inspektora nadzoru oraz w terminie
+przewidzianym w kontrakcie. Przewożone materiały powinny być rozmieszczone równomiernie oraz
+zabezpieczane przed przemieszczaniem w czasie ruchu pojazdu.
+Rury w wiązkach muszą być transportowane na samochodach o odpowiedniej długości. Wyładunek rur
+w wiązkach wymaga użycia podnośnika widłowego z płaskimi widełkami lub dźwignią z belką
+umożliwiającą zaciskanie się zawiesin na wiązce. Nie wolno stosować zawiesin z lin metalowych lub
+łańcuchów. Przy transporcie rur należy zachowywać następujące dodatkowe wymagania:
+- przewóz rur może być wykonywany wyłącznie samochodami skrzyniowymi,
+- środki transportu powinny mieć powierzchnie gładkie bez gwoździ lub innych ostrych
+krawędzi,
+- przewóz powinno się wykonać przy temperaturze powietrza - 5°C do + 30°C, przy czym
+powinna być zachowana szczególna ostrożność przy temperaturach ujemnych, z uwagi na
+zwiększoną kruchość tworzywa,
+- na platformie samochodu rury powinny leżeć kielichami naprzemianlegle, na podkładach
+drewnianych o szerokości co najmniej 10 cm i grubości co najmniej 2,5 cm, ułożonych
+prostopadle do osi rur,
+39
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+- wysokość ładunku na samochodzie nie powinna przekraczać 1 m,
+- przy wielowarstwowym ułożeniu rur górna warstwa nie może przewyższać ścian środka
+transportu więcej niż 1/3 średnicy zewnętrznej rury,
+- rury powinny być zabezpieczone przed zarysowaniem przez podłożenie tektury falistej i desek
+pod łańcuchy spinające boczne ściany skrzyń samochodu,
+- przy załadowaniu rur nie można ich rzucać ani przetaczać po pochylni,
+- przy długościach większych niż długość pojazdu wielkość zwisu rur nie może przekraczać 1m.
+Kształtki i armaturę należy przewozić w odpowiednich pojemnikach z zachowaniem ostrożności jak dla
+rur.
+Kruszywa mogą być przewożone dowolnymi środkami transportu w sposób zabezpieczający je przed
+zanieczyszczeniem i nadmiernym zawilgoceniem.
+Transport cementu i jego przechowywanie powinny być zgodne z BN-88/6731-08.
+5. WYKONANIE ROBÓT
+5.1. Zasady wykonania robót
+Wykonawca przedstawi Inspektorowi nadzoru do akceptacji harmonogram robót uwzględniający
+wszystkie warunki w jakich będzie wykonana sieć wodociągowa.
+5.2. Roboty przygotowawcze
+Wytyczenie trasy i punktów wysokościowych. – ST-00.01
+Usunięcie warstwy humusu. – ST-00.01
+Usunięcie elementów dróg, ogrodzeń. – ST-00.01
+Lokalizacja istniejącego uzbrojenia. Przed przystąpieniem do robót Wykonawca dokona odkrywki
+istniejącego uzbrojenia. Przed przystąpieniem do budowy wodociągu należy zabezpieczyć odcinek
+wodociągu, do których przewidziano podłączenie projektowanych kanałów.
+Ocena stanu technicznego budynków. Przed rozpoczęciem robót Wykonawca dokona oceny stanu
+technicznego budynków położonych w odległości mniejszej niż 8 m od trasy rurociągu, a w przypadku
+stosowania młota pneumatycznego, dla budynków mieszczących się w odległości mniejszej niż 20 m
+wykona mury oporowe i sporządzi odpowiednie protokoły.
+5.3. Roboty ziemne – wykopy
+Roboty ziemne w miejscu skrzyżowań z urządzeniami podziemnymi należy wykonać ręcznie, poza
+miejscami kolizji z urządzeniami podziemnymi – mechanicznie, zgodnie z dokumentacją projektową
+i specyfikacją techniczną ST-00.02 „Roboty ziemne”.
+5.4. Przygotowanie podłoża
+Podłoże należy wykonać zgodnie z dokumentacją projektową przy uwzględnieniu rodzaju gruntu.
+Grubości warstwy podsypki dla rur powinna wynosić od 0,10 m do 0,30 m, zgodnie z dokumentacją
+projektową.
+Wzmocnienie podłoża na odcinkach pod złączami rur powinno być wykonane po próbie szczelności
+odcinka kanału. Niedopuszczalne jest wyrównanie podłoża ziemią z urobku lub podkładanie pod rury
+kawałków drewna, kamieni lub gruzu.
+Podłoże powinno być tak wyprofilowane, aby rura spoczywała na nim jedną czwartą swojej
+powierzchni. Dopuszczalne odchylenie w planie krawędzi wykonanego podłoża wzmocnionego od
+ustalonego na ławach celowniczych kierunku osi przewodu nie powinno przekraczać 5 cm.
+Dopuszczalne zmniejszenie grubości podłoża od przewidywanej w specyfikacji technicznej nie powinno
+być większe niż 10%. Dopuszczalne odchylenie rzędnych podłoża od rzędnych przewidzianych w
+specyfikacji technicznej nie powinno przekraczać w żadnym punkcie ±1cm.
+Badania podłoża naturalnego i umocnionego zgodnie z wymaganiami normy PN-92/B-10727.
+40
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+W przypadku, gdy dno rurociągu znajduje się poniżej zwierciadła wody gruntowej, wodę należy obniżyć
+w sposób określony w specyfikacjach technicznych lub w sposób ustalony z Inspektorem nadzoru.
+Zagęszczenie podłoża powinno być zgodne z określonym w specyfikacjach technicznych oraz
+wymaganiami określonymi przez producentów rur.
+5.5. Roboty montażowe
+Po przygotowaniu wykopu i podłoża można przystąpić do wykonania robót montażowych
+wodociągowych. W celu zachowania prawidłowego postępu robót montażowych należy przestrzegać
+zasady budowy rurociągu od miejsca włączenia do istniejącej sieci do odcinków końcowych. Spadki
+i głębokości posadowienia kolektora powinny być zgodne z dokumentacją projektową.
+Technologia budowy sieci musi gwarantować utrzymanie trasy i spadków przewodów. Do budowy
+kanałów w wykopie otwartym można przystąpić po odbiorze wykopu i podłoża na odcinku między
+dwoma studzienkami rewizyjnymi (długość około 40 – 50 m).
+Przewody należy ułożyć zgodnie z wymaganiami normy z PN-B-10725 „Wodociągi. Przewody
+zewnętrzne. Wymagania i badania przy odbiorze".
+Materiały użyte do budowy przewodów powinny być zgodne z dokumentacją projektową
+i specyfikacjami technicznymi. Rury do budowy przewodów przed opuszczeniem do wykopu należy
+oczyścić od wewnątrz i zewnątrz z ziemi oraz sprawdzić czy nie uległy uszkodzeniu w czasie transportu
+i składowania. Rury do wykopu należy opuścić ręcznie za pomocą jednej lub dwóch lin.
+Niedopuszczalne jest zrzucenie rur do wykopu. Każdy segment rur po ułożeniu zgodnie z osią i
+niweletą powinna ściśle przylegać do podłoża na całej swej długości, na co najmniej 1/4 obwodu,
+symetrycznie do jej osi. Wyrównywanie spadków rury przez podkładanie pod rurę kawałków drewna,
+kamieni lub gruzu jest niedopuszczalne. Poszczególne rury należy unieruchomić przez obsypanie
+ziemią po środku długości rury i mocno podbić z obu stron aby rura nie mogła zmienić swego
+położenia. Należy sprawdzić prawidłowość ułożenia rury, tj. jej osi i spadku za pomocą ław
+celowniczych, ławy mierniczej, pionu i uprzednio umieszczonych na dnie wykopu reperów
+pomocniczych. Odchyłka osi ułożonego przewodu od osi projektowanej nie może przekraczać ± 20mm.
+Na zmianach kierunku, zgodnie z dokumentacją projektową i normatywami należy zainstalować bloki
+oporowe. Można zastosować bloki oporowe „gotowe” prefabrykowane lub wykonane przez Wykonawcę
+na budowie.
+W miejscach wskazanych w dokumentacji projektowej należy zainstalować zasuwy i trójniki oraz
+hydranty.
+Po zakończeniu prac montażowych w danym dniu należy otwarty koniec ułożonego przewodu
+zabezpieczyć przed ewentualnym zamuleniem wodą gruntową lub opadową przez zatkanie wlotu
+odpowiednio dopasowaną pokrywą. Po sprawdzeniu prawidłowości ułożenia przewodów i badaniu
+szczelności należy rury zasypać do takiej wysokości, aby znajdujący się nad nimi grunt uniemożliwił
+spłyniecie ich po ewentualnym zalaniu.
+Rury przewodowe. Rury należy układać i łączyć oraz uszczelniać zgodnie z instrukcją wytwórcy.
+Przed zakończeniem dnia roboczego bądź przed zejściem z budowy należy zabezpieczyć końce
+ułożonego kanału przed zamuleniem.
+Rury można układać przy temperaturze powietrza od 0 0C do +30 0C. Przy układaniu pojedynczych rur
+na dnie wykopu z uprzednio przygotowanym podłożem należy:
+- wstępnie rozmieścić rury na dnie wykopu,
+- wykonać złącza, przy czym rura kielichowa (do której jest wciskany bosy koniec następnej
+rury) winna być uprzednio obsypana warstwą ochronną 30 cm ponad wierzch rury z
+wyłączeniem odcinków połączenia rur. Osie łączonych odcinków rur muszą się znajdować na
+jednej prostej, co należy uregulować odpowiednimi podkładami pod odcinkiem wciskowym,
+- rury należy łączyć za pomocą kielichowych połączeń wciskowych z uszczelkami
+trójwargowymi.
+W celu prawidłowego przeprowadzenia montażu przewodu należy właściwie przygotować rury
+wykonując odpowiednio wszystkie czynności przygotowawcze takie jak:
+- przycinanie rur,
+- ukosowanie bosych końców rur i ich oznaczenie.
+41
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+Przed wykonaniem połączenia kielichowego wciskowego należy zukosować bose końce rury pod
+kątem 15°. Wymiary wykonanego skosu powinny być takie aby powierzchnia połowy grubości ścianki
+rury była nadal prostopadła do osi rury. Na bosym końcu rury należy przy połączeniu kielichowym
+wciskowym zaznaczyć głębokość złącza. Złącza kielichowe wciskane należy wykonywać wkładając do
+wgłębienia kielicha rury specjalnie wyprofilowaną pierścieniową uszczelkę gumową, a następnie
+wciskając bosy zukosowany koniec rury do kielicha, po uprzednim nasmarowaniu go smarem
+silikonowym. Do wciskania bosego końca rury przy średnicach powyżej 90 mm używać należy
+wciskarek. Potwierdzeniem prawidłowego wykonania połączenie powinno być osiągnięcie przez czoło
+kielicha granicy wcisku oraz współosiowość łączonych elementów. Podobne wymagania odnoszą się
+do łączenia bosych odcinków rur za pomocą nasuwki z pierścieniem gumowym. Należy przy tym
+zwrócić uwagę na to aby koniec bosy rury posiadał oznaczenie granicy wcisku. Oznaczenia te powinny
+być podane przez producenta.
+Izolacje rur. Wykonanie połączeń należy wykonać ściśle zgodnie z instrukcją montażu wytwórcy.
+Izolację rur należy wykonać zgodnie z dokumentacją projektową.
+Próba szczelności. Próbę szczelności przewodów należy przeprowadzić zgodnie z wymaganiami PN-
+B-10725. Próby szczelności należy dokonywać dla sprawdzenia wytrzymałości rur i szczelności
+połączeń. Próbę należy przeprowadzić po ułożeniu przewodu i przysypaniu z podbiciem obu stron rur
+dla zabezpieczenia przed przesuwaniem się przewodu. Wszystkie złącza powinny być odkryte dla
+możliwości sprawdzenia ewentualnych przecieków. Odcinek poddany próbie nie powinien przekraczać
+200m.
+Urządzenia do zamykania (na okres próby) badanych kanałów muszą być wyposażone w króćce z
+zaworami dla:
+- doprowadzenia wody,
+- opróżnienia rurociągu z wody po próbie,
+- odpowietrzenia.
+Wodę do przewodu wodociągowego podlegającego próbie należy doprowadzić grawitacyjnie.
+Odpowietrzenie z kolei dokonuje się przez najwyższy punkt przewodu. Czas napełnienia przewodu nie
+powinien być krótszy od 1 godziny dla spokojnego napełnienia i odpowietrzenia przewodu.
+Dezynfekcja i płukanie. Rurociągi przed ich oddaniem do eksploatacji podlegają dokładnemu
+przepłukaniu wodą, przy prędkości przepływu dostatecznej do wypłukania wszystkich zanieczyszczeń
+mechanicznych. Do płukania używać wody wodociągowej wypuszczając brudną przez hydranty, aż do
+chwili kiedy wypływająca woda będzie wzrokowo czysta.
+Po przepłukaniu rurociągów sieć wodociągową należy poddać dezynfekcji za pomocą wodnego
+roztworu podchlorynu sodu. Całość tej operacji polega na wprowadzeniu do rurociągu 3% roztworu
+podchlorynu sodu i utrzymaniu go przez okres 24 godzin. Po tym czasie zachlorowana woda winna być
+usunięta z sieci hydrantami poprzez doprowadzenie czystej wody i przepłukaniu przewodu.
+Po dokonaniu dezynfekcji i przepłukaniu powinna być pobrana próbka wody do analizy pod względem
+bakteriologicznym przez laboratorium Stacji Sanitarno-Epidemiologicznej.
+5.6. Roboty montażowe –skrzyżowania rur z instalacjami
+Obiekty liniowe krzyżujące się z istniejącym uzbrojeniem lub przebiegające w jego sąsiedztwie
+w odległościach mniejszych od normatywnych należy wykonać w sposób określony w dokumentacji
+projektowej. Skrzyżowania wykonać bezwzględnie ręcznie, bez użycia sprzętu mechanicznego,
+zgodnie z dokumentacją projektową.
+Wszystkie odkrycia linii oraz instalacji, niepotwierdzonych geodezyjnie na mapie należy w trybie pilnym
+zgłosić Inspektorowi nadzoru oraz właściwemu eksploatatorowi.
+Każde skrzyżowanie i zbliżenie przed zasypaniem podlega odbiorowi przez właścicieli odnośnych
+instalacji.
+Przejścia pod drogami publicznymi. Rurociągi prowadzone w drogach publicznych o nawierzchni
+asfaltowej należy przeprowadzić według dokumentacji projektowej lub w porozumieniu z Inspektorem
+Nadzoru. Przejścia pod drogami gruntowymi należy wykonać rozkopem. Należy zastosować się do
+zaleceń opisanych w specyfikacji technicznej ST-00.04 „Skrzyżowania rurociągów z drogami,
+uzbrojeniem podziemnym i przeszkodami naturalnymi”.
+42
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+Przejścia pod rowami i ciekami. Rurociągi prowadzone w poprzek cieków i urządzeń wodnych należy
+przeprowadzić według dokumentacji projektowej lub w porozumieniu z Inspektorem Nadzoru. Przejścia
+pod dnem należy wykonać bezwykopowo w rurze osłonowej lub. W przypadku stosowania
+odpowiedniej metody bezwykopowej dopuszcza się rezygnację z zastosowania rury osłonowej po
+uzyskaniu zgody Inspektora. Należy zastosować się do zaleceń opisanych w specyfikacji technicznej
+ST-00.04 „Skrzyżowania rurociągów z drogami, uzbrojeniem podziemnym i przeszkodami naturalnymi”.
+Skrzyżowania z istniejącymi liniami elektrycznymi, kablami elektrycznymi. W miejscach kolizji
+roboty prowadzić po uzgodnieniu z właścicielem sieci i w razie potrzeby po wyłączeniu prądu. Na
+istniejących kablach energetycznych zastosować rury ochronne dwudzielne średnicy 100 mm o
+długości 1 m + szerokość wykopu; zgodnie z dokumentacją projektową. W miejscach kolizji z liniami
+napowietrznymi roboty należy prowadzić w odległości 2 m od słupów. Należy zastosować się do
+zaleceń opisanych w specyfikacji technicznej ST-00.04 „Skrzyżowania rurociągów z drogami,
+uzbrojeniem podziemnym i przeszkodami naturalnymi” zamieszczonej w niniejszym opracowaniu.
+Skrzyżowania z istniejącymi kablami teletechnicznymi. W miejscach kolizji roboty prowadzić po
+uzgodnieniu z właścicielem sieci. Istniejące kable teletechniczne należy zabezpieczyć rurą ochronną
+dwudzielną średnicy 100 mm o długości 1 m + szerokość wykopu; zgodnie z dokumentacją projektową.
+Należy zastosować się do zaleceń opisanych w specyfikacji technicznej ST-00.04 „Skrzyżowania
+rurociągów z drogami, uzbrojeniem podziemnym i przeszkodami naturalnymi”.
+Skrzyżowania z istniejącymi rurociągami wodociągowymi i kanalizacyjnymi. Skrzyżowania
+wykonać bez użycia sprzętu mechanicznego, zgodnie z dokumentacją projektową. Należy zastosować
+się do zaleceń opisanych w specyfikacji technicznej ST-00.04 „Skrzyżowania rurociągów z drogami,
+uzbrojeniem podziemnym i przeszkodami naturalnymi”.
+5.7. Roboty ziemne – zasypy
+Zasypanie wykopów należy przeprowadzić zgodnie z dokumentacją projektową i specyfikacją
+techniczną ST-00.02 „Roboty ziemne”.
+Zasypanie wykopów i ich zagęszczenie. Użyty materiał i sposób zasypania przewodu nie powinien
+spowodować uszkodzenia ułożonego przewodu i obiektów na przewodzie oraz izolacji wodoszczelnej.
+Grubość warstwy ochronnej zasypu strefy niebezpiecznej ponad wierzch przewodu powinna wynosić
+co najmniej 0,3 m.
+Zasypanie kanału przeprowadza się w dwóch etapach, po wykonaniu próby szczelności:
+- etap I - wykonanie warstwy ochronnej rury kanałowej o grubości 30 cm;
+- etap II - zasyp wykopu gruntem piaszczystym, warstwami z jednoczesnym zagęszczeniem
+i rozbiórką deskowań i rozpór ścian wykopu.
+Rodzaj gruntu do zasypywania wykopów – optymalnie materiał piaszczysty nowy - Wykonawca uzgodni
+z Inspektorem nadzoru.
+Materiał zasypu powinien być zagęszczony ubijakiem po obu stronach przewodu ze szczególnym
+uwzględnieniem wykopu pod złącza, żeby kanał nie uległ zniszczeniu. Zasypanie wykopów powyżej
+warstwy ochronnej dokonuje się z jednoczesnym zagęszczeniem i ewentualną rozbiórką odeskowań i
+rozpór ścian wykopu. Zasypanie wykopów należy wykonać warstwami o grubości dostosowanej do
+przyjętej metody zagęszczenia przy zachowaniu wymagań dotyczących zagęszczenia gruntów
+określonych w specyfikacji technicznej „Roboty ziemne” i zgodnie z wymaganiami normy BN-72/8932-
+01 dla dróg o ruchu ciężkim i bardzo ciężkim.
+6. KONTROLA JAKOŚCI ROBÓT
+6.1. Ogólne zasady kontroli jakości robót
+Ogólne zasady kontroli jakości robót podano w ST-00.00 „Wymagania ogólne” pkt 6.
+Kontrola związana z wykonaniem wodociągu powinna być przeprowadzona w czasie wszystkich faz
+robót zgodnie z wymaganiami normy PN-B-10725:1997 i PN-B-10736:1999. Wyniki przeprowadzonych
+badań należy uznać za dodatnie, jeżeli wszystkie wymagania dla danej fazy robót zostały spełnione.
+Jeśli którekolwiek z wymagań nie zostało spełnione należy daną fazę robót uznać za niezgodną z
+wymaganiami normy i po wykonaniu poprawek przeprowadzić badania ponownie.
+43
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+Kontrola jakości robót powinna obejmować następujące badania: zgodności z dokumentacją
+projektową wykopów otwartych, podłoża naturalnego, zasypu przewodu, podłoża wzmocnionego,
+materiałów, ułożenia przewodów na podłożu, szczelności przewodu, zabezpieczenia przewodu:
+- Sprawdzenie zgodności z dokumentacją projektową polega na porównaniu wykonywanych
+bądź wykonanych robót z dokumentacją projektową oraz na stwierdzeniu wzajemnej
+zgodności na podstawie oględzin i pomiarów.
+- Badanie materiałów użytych do budowy następuje przez porównanie ich cech z wymaganiami
+określonymi w specyfikacjach technicznych, w tym na podstawie dokumentów określających
+jakość wbudowanych materiałów i porównanie ich cech z normami przedmiotowymi, atestami
+producentów lub warunkami określonymi w specyfikacjach technicznych oraz bezpośrednio na
+budowie przez oględziny zewnętrzne lub przez odpowiednie badania specjalistyczne.
+- Badania w zakresie przewodu obejmują czynności wstępne sprowadzające się do pomiaru
+długości (z dokładnością do 10 cm) i średnicy (z dokładnością do 1 cm), badanie ułożenia
+przewodu na podłożu w planie i w profilu, badanie połączenia rur i prefabrykatów. Ułożenie
+przewodu na podłożu naturalnym i wzmocnionym powinno zapewnić oparcie rur na co
+najmniej 1/4 obwodu. Sprawdzenie wykonania połączeń rur i prefabrykatów należy
+przeprowadzić przez oględziny zewnętrzne.
+- Badanie szczelności odcinka przewodu obejmuje badanie stanu odcinka rurociągu,
+napełnienie wodą i odpowietrzenie przewodu, pomiar ubytku wody. Podczas próby należy
+prowadzić kontrolę szczelności złączy, ścian przewodu. W przypadku stwierdzenia ich
+nieszczelności należy poprawić uszczelnienie, a w razie niemożliwości oznaczyć miejsce
+wycieku i przerwać badanie do czasu usunięcia przyczyn nieszczelności.
+6.2. Kontrola, pomiary i badania
+Badania przed przystąpieniem do robót. Przed przystąpieniem do robót Wykonawca powinien
+wykonać badania materiałów do betonu, zapraw, obsypek i podsypek oraz ustalić wymagane recepty
+laboratoryjne.
+Kontrola, pomiary i badania w czasie robót. Wykonawca jest zobowiązany do stałej i systematycznej
+kontroli prowadzonych robót w zakresie i z częstotliwością określoną w niniejszej specyfikacji
+technicznej i zaakceptowaną przez Inspektora nadzoru. W szczególności kontrola powinna obejmować:
+- sprawdzenie rzędnych założonych ław celowniczych w nawiązaniu do podanych stałych
+punktów wysokościowych z dokładnością do 1 cm,
+- badanie zabezpieczenia wykopów przed zalaniem wodą,
+- badanie i pomiary szerokości, grubości i zagęszczenia wykonanej warstwy podsypki,
+- badanie odchylenia osi kolektora,
+- sprawdzenie zgodności z dokumentacją projektową założenia przewodów,
+- badanie odchylenia spadku kolektora,
+- sprawdzenie prawidłowości ułożenia przewodów za pomocą kamery,
+- sprawdzenie prawidłowości uszczelniania przewodów,
+- sprawdzenie szczelności,
+- badanie wskaźników zagęszczenia poszczególnych warstw zasypu,
+Dopuszczalne tolerancje i wymagania. Dopuszczalne tolerancje i wymagania powinny kształtować
+się następująco:
+- odległości krawędzi wykopu w dnie od ustalonej w planie osi wykopu nie powinno wynosić
+więcej niż ± 5 cm,
+- odchylenie wymiarów w planie nie powinno być większe niż 0,1 m,
+- odchylenie grubości warstwy podłoża nie powinno przekraczać ± 3 cm,
+- odchylenie szerokości warstwy podłoża nie powinno przekraczać ± 5 cm,
+- odchylenie rurociągu w planie, odchylenie odległości osi ułożonego rurociągu od osi przewodu
+ustalonej na ławach celowniczych nie powinna przekraczać ± 5 mm,
+44
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+- odchylenie spadku ułożonego kolektora od przewidzianego w projekcie nie powinno
+przekraczać - 5% projektowanego spadku (przy zmniejszonym spadku) i +10%
+projektowanego spadku (przy zwiększonym spadku),
+- wskaźnik zagęszczenia zasypki wykopów określony w trzech miejscach na długości 100 m
+powinien być zgodny z punktem 5.7 niniejszej specyfikacji technicznej.
+7. OBMIAR ROBÓT
+Jednostką obmiarową przewodu wodociągowego jest 1 metr (m) rury oraz 1 szt. armatury danego
+rodzaju.
+8. PRZEJĘCIE ROBÓT
+8.1. Ogólne zasady przejęcia robót
+Roboty uznaje się za wykonane zgodnie z dokumentacją projektową, specyfikacjami technicznymi
+i wymaganiami Inspektora nadzoru, jeżeli wszystkie pomiary i badania z zachowaniem tolerancji
+według punktu 6 niniejszej specyfikacji technicznej dały wyniki pozytywne.
+8.2. Badania przy odbiorze
+Badania przy odbiorze przewodów sieci wodociągowych powinny być zgodne z wymaganiami PN-B-
+10725:1997.
+8.3. Odbiór robót zanikających i ulegających zakryciu
+Odbiorowi robót zanikających i ulegających zakryciu podlegają następujące elementy:
+- roboty montażowe wykonania rur wodociągowych,
+- roboty montażowe armatury i kształtek, itp.,
+- zasypany zagęszczony wykop.
+Odbiór robót zanikających i ulegających zakryciu powinien być dokonany w czasie umożliwiającym
+wykonanie korekt i poprawek bez hamowania ogólnego postępu robót. Długość odcinka podlegającego
+odbiorowi nie powinna być mniejsza niż 100m.
+Przy odbiorze powinny być dostarczone następujące dokumenty:
+- Dokumentacja projektowa ze zmianami i uzupełnieniami naniesionymi na niej w trakcie
+wykonywania robót.
+- Stan terenu określony przed przystąpieniem do robót przez podanie znaków wysokościowych
+reperów, uzbrojenia podziemnego przebiegającego wzdłuż i w poprzek trasy przewodu, a
+także przekroje poprzeczne i przekrój podłużny terenu, zadrzewienie.
+- Dziennik budowy.
+- Dokumenty dotyczące jakości wbudowanych materiałów.
+Odbiór polega na sprawdzeniu zgodności z dokumentacją projektową i specyfikacjami technicznymi,
+użycia właściwych materiałów, prawidłowości montażu, szczelności oraz zgodności z innymi
+wymaganiami określonymi w punkcie „Kontrola jakości robót” niniejszej specyfikacji. Wyniki
+z przeprowadzonych badań powinny być ujęte w formie protokołów i pisane do dziennika budowy.
+8.4. Odbiór techniczny częściowy.
+Badania przy odbiorze technicznym częściowym polegają na:
+- zbadaniu zgodności usytuowania i długości przewodu z dokumentacją i inwentaryzacją
+geodezyjną. Dopuszczalne odchylenie w planie osi przewodu od osi wytyczonej nie powinno
+przekraczać 0,1 m Dopuszczalne odchylenie rzędnych ułożonego przewodu od
+przewidzianych w projekcie nie powinno przekraczać dla przewodów z tworzyw sztucznych ±
+0,05 m,
+- zbadaniu prawidłowości wykonania połączeń, w sposób ustalony w dokumentacji,
+45
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+- zbadaniu podłoża naturalnego przez sprawdzenie nienaruszenia gruntu. W przypadku
+naruszenia podłoża naturalnego sposób jego zagęszczenia powinien być uzgodniony z
+projektantem lub nadzorem,
+- zbadaniu podłoża wzmocnionego przez sprawdzenie jego grubości i rodzaju, zgodnie z
+dokumentacją,
+- zbadaniu materiału ziemnego użytego do podsypki i obsypki przewodu, który powinien być
+drobny i średnioziarnisty, bez grud i kamieni. Materiał ten powinien być zagęszczony,
+- zbadaniu szczelności przewodu. Badanie szczelności należy przeprowadzić zgodnie z PN-B-
+10725:1997. Dotyczy to także przewodów układanych nad terenem o konstrukcji samonośnej i
+na lub pod konstrukcją nośną.
+Wyniki badań powinny być wpisane do dziennika budowy, który z protokółem próby szczelności
+przewodu, inwentaryzacją geodezyjną (dopuszcza się inwentaryzację szkicową) oraz certyfikatami i
+deklaracjami zgodności z polskimi normami i aprobatami technicznymi, dotyczącymi rur i armatury, jest
+przedłożony podczas spisywania protokółu odbioru technicznego - częściowego, który stanowi
+podstawę do decyzji o możliwości zasypywania odebranego odcinka przewodu sieci wodociągowej.
+Wymagane jest także dokonanie wpisu do dziennika budowy o wykonaniu odbioru technicznego -
+częściowego. Kierownik budowy jest zobowiązany, zgodnie z art. 22 ustawy z dnia 7 lipca 1994 r.
+Prawo budowlane, przy odbiorze technicznym - częściowym przewodu wodociągowego, zgłosić
+inwestorowi do odbioru roboty ulegające zakryciu, zapewnić dokonanie próby i sprawdzenia przewodu,
+zapewnić geodezyjną inwentaryzację przewodu, przygotować dokumentację powykonawczą.
+8.5. Odbiór techniczny końcowy
+Badania przy odbiorze technicznym końcowym polegają na:
+- zbadaniu zgodności dokumentacji technicznej ze stanem faktycznym i inwentaryzacją
+geodezyjną,
+- zbadaniu zgodności protokółów odbioru: próby szczelności, wyników badań
+bakteriologicznych oraz wyników stopnia zagęszczenia gruntu zasypki wykopu,
+- zbadaniu izolacji cieplnej oraz jej zabezpieczenia dla przewodów wodociągowych układanych
+nad terenem,
+- zbadaniu rozstawu armatury i jej działania,
+Wyniki badań powinny być wpisane do dziennika budowy, który z protokółami odbiorów technicznych
+częściowych przewodu wodociągowego, projektem z wprowadzonymi zmianami podczas budowy,
+wynikami badań bakteriologicznych, wynikami badań stopnia zagęszczenia gruntu zasypki wykopu i
+inwentaryzacją geodezyjną jest przedłożony podczas spisywania protokółu odbioru technicznego
+końcowego, na podstawie którego przekazuje się inwestorowi wykonany przewód sieci wodociągowej.
+Konieczne jest także dokonanie wpisu do dziennika budowy o wykonaniu odbioru technicznego
+końcowego.
+Teren po budowie przewodu wodociągowego powinien być doprowadzony do pierwotnego stanu.
+Kierownik budowy jest zobowiązany, zgodnie z art. 57 ust. 1 p. 2 ustawy prawo budowlane, przy
+odbiorze końcowym złożyć oświadczenia:
+- wykonaniu przewodu wodociągowego zgodnie z projektem, warunkami pozwolenia na
+budowę i warunkami technicznymi wykonania i odbioru (w tym zgodnie z powołanymi w
+warunkach przepisami i polskimi normami),
+- doprowadzeniu do należytego stanu i porządku terenu budowy, a także - w razie korzystania-
+ulicy i sąsiadującej nieruchomości.
+9. PODSTAWA PŁATNOŚCI
+Cena wykonanej i odebranej sieci wodociągowej obejmuje:
+- oznakowanie robót;
+46
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+- dostarczenie materiałów;
+- włączenie i wyłączenie sieci wodociągowej;
+- ostateczne wyprofilowanie dna wykopu;
+- wykonanie podsypki pod kanały;
+- ułożenie rur wodociągowych z wykonaniem połączeń;
+- wykonanie węzłów i montaż armatury;
+- próba hydrauliczna;
+- dezynfekcja i badanie wody;
+- włączenie do istniejącej sieci wodociągowej;
+- ułożenie taśmy sygnalizacyjnej;
+- oznakowanie trasy wodociągu i armatury;
+- wykonanie zasypki rurociągów do wysokości wymaganej w specyfikacji technicznej;
+- przeprowadzenie pomiarów, prób i badań wymaganych w specyfikacji technicznej;
+- wykonanie geodezyjnej dokumentacji i powykonawczej przebiegu wodociągu;
+- wykonanie dokumentacji powykonawczej.
+10. PRZEPISY ZWIĄZANE
+[1] PN-86-B-02480 Grunty budowlane. Określenia, symbole, podział i opisy gruntów.
+[2] PN-81/B-03020 Grunty budowlane. Posadowienie bezpośrednie budowli. Obliczenia
+statyczne i projektowanie.
+[3] PN-68/B-06050 Roboty ziemne budowlane. Wymagania w zakresie wykonania i badania
+przy odbiorze.
+[4] PN-EN 512:2000 Wyroby włókno-cementowe - Rury ciśnieniowe i złącza
+[5] PN-EN 545:2000 Rury kształtki i wyposażenie z żeliwa sferoidalnego oraz ich złącza do
+rurociągów wodnych - Wymagania i metody badań.
+[6] PN-EN 639:1999 Ogólne wymagania dotyczące rur ciśnieniowych betonowanych oraz
+złączy i kształtek
+[7] PN-EN 640:2000 Rury ciśnieniowe żelbetowe i rury ciśnieniowe żelbetowe ze zbrojeniem
+równomiernie rozłożonym (bez płaszcza blaszanego) oraz złącza i
+kształtki
+[8] PN-EN 641:2000 Rury ciśnieniowe żelbetowe z płaszczem blaszanym oraz złącza
+i kształtki
+[9] PN-EN 642:2000 Rury ciśnieniowe z betonu sprężonego z płaszczem lub bez płaszcza
+blaszanego łącznie ze złączami i kształtkami oraz specjalne wymagania
+dotyczące stali sprężającej
+[10] PN-EN-1452-1÷5:2000 Systemy przewodowe z tworzyw sztucznych - Systemy przewodowe z
+niezmiękczonego pol(chlorku winylu) (PVC-U) do przesyłania wody
+[11] PN-EN 805 Zaopatrzenie w wodę - Wymagania dla sieci wodociągowych i ich części
+składowych
+[12] PN-87/B-01060 Sieć wodociągowa zewnętrzna - Obiekty i elementy wyposażenia -
+Terminologia
+[13] PN-92/B-01706/Azl:1999 Instalacje wodociągowe - Wymagania w projektowaniu
+[14] PN-81/B-03020 Grunty budowlane - Posadowienie bezpośrednie budowli - Obliczenia
+statyczne i projektowanie
+[15] PN-86/B-09700 Tablice orientacyjne do oznaczania uzbrojenia na przew odach
+wodociągowych
+[16] PN-91/B-10703 Wodociągi - Przewody z rur żeliwnych i stalowych układanych w ziemi -
+Ochrona katodowa - Wymagania i badania.
+[17] PN-B-10725:1997 Wodociągi - Przewody zewnętrzne - Wymagania i badania
+[18] PN-B-10736:1999 Roboty ziemne - Wykopy otwarte dla przewodów wodociągowych i
+kanalizacyjnych - Warunki techniczne wykonania
+47
+Specyfikacje techniczne wykonania i odbioru robót - ST-00.03 – Sieć wodociągowa
+[19] PN-84/H-74101 Rury żeliwne ciśnieniowe do połączeń sztywnych
+[20] PN-90/H-74105 Rury ciśnieniowe z żeliwa sferoidalnego - Podział i wymiary
+[21] PN-90/H-74107 Rury ciśnieniowe z żeliwa sferoidalnego - Wymagania i badania
+[22] PN-74/H-74200 Rury stalowe ze szwem, gwintowane
+[23] PN-80/H-74219 Rury stalowe bez szwu walcowane na gorąco ogólnego zastosowania
+[24] PN-79/H-74244 Rury stalowe ze szwem przewodowe.
+[25] PN-72/H-83104 Odlewy z żeliwa szarego. Tolerancje, wymiary, naddatki na obróbkę
+skrawania i odchyłki masy.
+[26] PN-85/B-01700 Wodociągi i kanalizacje. Urządzenia i siec zewnętrzna. Oznaczenia
+graficzne.
+[27] PN-68/B-06050 Roboty ziemne budowlane. Wymagania w zakresie wykonywania i
+badania przy odbiorze.
+[28] BN-83/8836-02 Przewody podziemne. Roboty ziemne. Wymagania i badania przy
+odbiorze.
+[29] PN-88/B-06250 Beton zwykły.
+[30] PN-90/B-14501 Zaprawy budowlane zwykłe.
+[31] PN-88/B-32250 Materiały budowlane. Woda do betonów i zapraw.
+[32] PN-79/B-06711 Kruszywa mineralne. Piaski do zapraw budowlanych.
+[33] PN-87/B-01100 Kruszywa mineralne. Kruszywa skalne. Podział, nazwy i określenia.
+[34] PN-86/B-06712 Kruszywa mineralne do betonu.
+[35] PN-B-19701:1997 Cement. Cement powszechnego użytku. Skład, wymagania i ocena
+zgodności.
+[36] PN-86/B-01802 Antykorozyjne zabezpieczenia w budownictwie. Betonowe i żelbetowe.
+Nazwy i określenia.
+[37] PN-80/B-01800 Antykorozyjne zabezpieczenia w budownictwie. Konstrukcje betonowe
+i żelbetowe. Klasyfikacja i określenie środowiska.
+[38] BN-85/6753-02 Kity budowlane trwale plastyczne, olejowy i poliestyrenowy.
+[39] BN-78/6354-12 Rury drenarskie z nieplastyfikowanego polichlorku winylu.
+[40] PN-98/B-12040 Ceramiczne rurki drenarskie.
+[41] PN-90/B-04615 Papy asfaltowe i smołowe. Metody badań.
+[42] PN-74/B-24620 Lepik asfaltowy stosowany na zimno.
+[43] PN-98/B-24622 Roztwór asfaltowy do gruntowania.
+[44] PN-98/B-12037 Cegła kanalizacyjna.
+[45] BN-77/8931-12 Oznaczenia wskaźnika zagęszczenia gruntu.
+[46] BN-72/8932-01 Budowle drogowe i kolejowe. Roboty ziemne.
+[47] Rozporządzenie Ministra Ochrony Środowiska, Zasobów Naturalnych i Leśnictwa z dnia
+20.12.1996 w sprawie warunków technicznych jakim powinny odpowiadać obiekty budowlane
+gospodarki wodnej i ich usytuowanie (Dz. U. nr 21/97 poz. 111)
+[48] Rozporządzenie Rady Ministrów z dnia 30.09.i980 w sprawie ochrony środowiska przed
+odpadami i innymi zanieczyszczeniami oraz utrzymania czystości w miastach i wsiach (Dz. U. nr
+24/80 poz. 91)
+[49] Wymagania BHP w projektowaniu, rozruchu i eksploatacji obiektów i urządzeń wodno-ściekowych
+w gospodarce komunalnej. Wydawnictwo Centrum Techniki Budownictwa Komunalnego w
+Warszawie.
+48
