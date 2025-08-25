@@ -2,14 +2,16 @@
 # -*- coding: utf-8 -*-
 """
 Skrypt do wywoływania modelu LLM i ekstrakcji elementów/relacji w formacie JSON.
-Obsługuje dwa backendy:
-- OpenAI-kompatybilny endpoint (HTTP) — wymaga OPENAI_API_KEY (i opcjonalnie OPENAI_BASE_URL, OPENAI_MODEL)
-- transformers (lokalny) — jeśli zainstalowane (model wskazany parametrem --model)
+Obsługiwane backendy:
+- openai — OpenAI-kompatybilny endpoint (HTTP) — wymaga OPENAI_API_KEY (i opcjonalnie OPENAI_BASE_URL, OPENAI_MODEL)
+- transformers — lokalny backend HuggingFace (model wskazany parametrem --model)
+- ollama — lokalny serwer Ollama (domyślnie http://localhost:11434)
 
 Użycie:
 python3 model_infer.py --text "..." --backend openai --model gpt-4o-mini --output out.json
 python3 model_infer.py --input-file projektextracted.txt --backend openai --output out.jsonl
 python3 model_infer.py --text "..." --backend transformers --model mistralai/Mistral-7B-Instruct-v0.2
+python3 model_infer.py --input-file projektextracted.txt --backend ollama --model mistral:instruct --output out.json
 """
 
 import os
@@ -108,6 +110,42 @@ def call_transformers(text: str, model: str) -> Dict[str, Any]:
     return _extract_json(content)
 
 
+def call_ollama(text: str, model: str, temperature: float = 0.0, max_tokens: int = 1000) -> Dict[str, Any]:
+    """Wywołanie lokalnego serwera Ollama (endpoint /api/chat)."""
+    import requests
+
+    if not model:
+        # Przykład: "mistral:instruct" lub "llama3.1:8b-instruct"
+        raise RuntimeError("Dla backendu 'ollama' wymagany jest parametr --model (np. 'mistral:instruct')")
+
+    base_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+    url = f"{base_url}/api/chat"
+
+    # Ollama nie ma natywnego response_format=json_object, więc egzekwujemy JSON w promptach
+    messages = [
+        {"role": "system", "content": PROMPT_SYSTEM},
+        {"role": "user", "content": PROMPT_USER_TEMPLATE.format(input_text=text)},
+    ]
+
+    payload = {
+        "model": model,
+        "messages": messages,
+        "options": {
+            "temperature": temperature,
+            "num_predict": max_tokens
+        },
+        "stream": False
+    }
+
+    resp = requests.post(url, json=payload, timeout=180)
+    if resp.status_code != 200:
+        raise RuntimeError(f"Błąd Ollama ({resp.status_code}): {resp.text[:200]}")
+
+    data = resp.json()
+    content = data.get("message", {}).get("content", "")
+    return _extract_json(content)
+
+
 def infer(text: str, backend: str, model: Optional[str]) -> Dict[str, Any]:
     if backend == "openai":
         return call_openai(text=text, model=model)
@@ -115,6 +153,8 @@ def infer(text: str, backend: str, model: Optional[str]) -> Dict[str, Any]:
         if not model:
             raise RuntimeError("Dla backendu 'transformers' wymagany jest parametr --model")
         return call_transformers(text=text, model=model)
+    elif backend == "ollama":
+        return call_ollama(text=text, model=model or os.getenv("OLLAMA_MODEL", "mistral:instruct"))
     else:
         raise RuntimeError(f"Nieznany backend: {backend}")
 
@@ -124,7 +164,7 @@ def main():
     parser.add_argument("--text", type=str, help="Tekst wejściowy.")
     parser.add_argument("--input-file", type=str, help="Plik wejściowy z tekstem.")
     parser.add_argument("--output", type=str, help="Plik wyjściowy (JSON/JSONL). Jeśli nie podano, wypisze na stdout.")
-    parser.add_argument("--backend", type=str, default="openai", choices=["openai", "transformers"], help="Backend LLM")
+    parser.add_argument("--backend", type=str, default="openai", choices=["openai", "transformers", "ollama"], help="Backend LLM")
     parser.add_argument("--model", type=str, default=None, help="Nazwa modelu (dla openai lub transformers)")
     args = parser.parse_args()
 

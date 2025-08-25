@@ -4,6 +4,7 @@
 Wsadowe przetwarzanie wielu plików extracted.txt do JSONL przy użyciu model_infer.py
 Użycie:
 python3 batch_process.py --backend openai --model gpt-4o-mini --inputs projektextracted.txt specyfikacjaextracted.txt wytyczneextracted.txt --out results.jsonl
+python3 batch_process.py --backend ollama --model mistral:instruct --inputs projektextracted.txt specyfikacjaextracted.txt wytyczneextracted.txt --out results.jsonl
 """
 
 import argparse
@@ -28,7 +29,7 @@ def run_infer(input_path: Path, backend: str, model: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Wsadowe przetwarzanie plików extracted.txt")
-    parser.add_argument("--backend", required=True, choices=["openai", "transformers"], help="Backend LLM")
+    parser.add_argument("--backend", required=True, choices=["openai", "transformers", "ollama"], help="Backend LLM")
     parser.add_argument("--model", required=False, default=None, help="Nazwa modelu")
     parser.add_argument("--inputs", nargs="+", required=True, help="Lista plików wejściowych")
     parser.add_argument("--out", required=True, help="Plik wyjściowy JSONL")

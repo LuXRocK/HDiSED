@@ -1,3 +1,24 @@
+## Krok 4: Uruchomienie inferencji na darmowym backendzie (Ollama lub Transformers)
+
+### Opcja A: Ollama (zalecane lokalnie)
+1. Zainstaluj Ollama: `https://ollama.com`
+2. Pobierz model instruktarzowy, np. Mistral:
+   - `ollama pull mistral:instruct`
+3. Uruchom inferencję na jednym pliku:
+   - `python3 model_infer.py --input-file projektextracted.txt --backend ollama --model mistral:instruct --output out_projekt.json`
+4. Uruchom wsadowo na wszystkich plikach:
+   - `python3 batch_process.py --backend ollama --model mistral:instruct --inputs projektextracted.txt specyfikacjaextracted.txt wytyczneextracted.txt --out results.jsonl`
+
+Zmienne opcjonalne: `OLLAMA_BASE_URL` (domyślnie `http://localhost:11434`).
+
+### Opcja B: Transformers (offline)
+1. `pip install -r requirements.txt`
+2. Przykład uruchomienia:
+   - `python3 model_infer.py --input-file projektextracted.txt --backend transformers --model mistralai/Mistral-7B-Instruct-v0.2 --output out_projekt.json`
+
+Uwagi:
+- Backend OpenAI nie jest wymagany. Całość działa lokalnie.
+- Wynik to JSON zgodny ze schematem z `prompt_instructions.md`.
 # Zadania na następne dni - WYKONANE ✅
 
 ## Zadanie 1: Przygotowanie promptu/instrukcji dla modelu
