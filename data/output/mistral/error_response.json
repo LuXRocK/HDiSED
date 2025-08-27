@@ -1,0 +1,19 @@
+{
+  "elements": [
+    { "id": "Z1", "type": "Zbiornik Wody", "description": "Główny Zbiornik Wody" },
+    { "id": "P1", "type": "Pompownia", "description": "Pompownia Główna" },
+    { "id": "R1", "type": "Rurociąg", "description": "Rurociąg Północny" },
+    { "id": "R2", "type": "Rurociąg", "description": "Rurociąg Południowy" },
+    { "id": "P2", "type": "Pompownia", "description": "Pompownia Wspomagająca P2" },
+    { "id": "SUW1", "type": "Stacja Uzdatniania Wody", "description": "Stacja Uzdatniania Wody 1" }
+  ],
+  "relationships": [
+    { "source": "Z1", "target": "P1", "label": "POŁĄCZONY_Z", "context": "Główny Zbiornik Wody (Z1), który jest połączony z Pompownią Główną (P1)." },
+    { "source": "P1", "target": "R1", "label": "TŁOCZY_WODĘ", "context": "Pompownia P1 tłoczy wodę do Rurociągu Północnego (R1)." },
+    { "source": "R1", "target": "A", "label": "DOSTARCZA_WODĘ", "context": "Rurociąg Północny (R1) dostarcza wodę do Osiedla A." },
+    { "source": "R1", "target": "ZAW1", "label": "MASZYSTA_BEZPIECZEŃSTWA", "context": "Na Rurociągu Północnym zainstalowany jest zawór bezpieczeństwa ZAW1." },
+    { "source": "Z1", "target": "SUW1", "label": "ZASILANY_ZE", "context": "Główny Zbiornik Wody (Z1) jest zasilany ze Stacji Uzdatniania Wody (SUW1)." },
+    { "source": "R2", "target": "B", "label": "DOSTARCZA_WODĘ", "context": "Rurociąg Południowy (R2) zaopatruje Osiedle B." },
+    { "source": "R2", "target": "Strefa Przemysłowa", "label": "DOSTARCZA_WODĘ", "context": "Rurociąg Południowy (R2) łączy się z mniejszą pompownią wspomagającą P2 przed dotarciem do strefy przemysłowej." }
+  ]
+}

@@ -1,6 +1,2 @@
-requests>=2.31.0
-transformers>=4.41.0
-accelerate>=0.31.0
-torch --extra-index-url https://download.pytorch.org/whl/cpu
-pdfplumber>=0.11.0
-
+ollama
+pydantic

@@ -1,0 +1,60 @@
+25 WYKORZYSTANIE DUŻYCH MODELI JĘZYKOWYCH (LLM) DO AUTOMATYCZNEGO
+GENEROWANIA I ANALIZY GRAFÓW INFRASTRUKTURY LINIOWEJ Z UŻYCIEM BAZ
+GRAFOWYCH
+1. Wprowadzenie
+Infrastruktura liniowa, obejmująca sieci wodociągowe, energetyczne czy drogowe, jest kluczowym elementem
+nowoczesnych społeczeństw. Reprezentacja takich systemów w formie grafów umożliwia efektywną analizę ich
+struktury i funkcjonowania. Tradycyjne metody tworzenia tych reprezentacji są jednak czasochłonne i podatne na
+błędy. W ostatnich latach duże modele językowe (LLM) zyskały na popularności jako narzędzia do przetwarzania i
+analizy danych tekstowych. Ich potencjał w kontekście automatycznego generowania grafów infrastruktury liniowej
+pozostaje jednak niedostatecznie zbadany.
+2. Problem badawczy
+Głównym problemem badawczym jest ocena efektywności i dokładności wykorzystania LLM do automatycznego
+przekształcania opisów tekstowych infrastruktury liniowej na ich reprezentacje grafowe. W szczególności istotne jest
+zbadanie, w jakim stopniu modele te są w stanie identyfikować kluczowe elementy infrastruktury oraz relacje między
+nimi, a następnie poprawnie odwzorowywać je w strukturze grafu.
+3. Przegląd literatury
+W literaturze istnieją prace dotyczące integracji modeli językowych z grafami w dynamicznych sieciach. Sun i in.
+przedstawili ramy wykorzystania LLM w dynamicznych sieciach, podkreślając ich potencjał w analizie złożonych
+systemów . Ponadto, badania nad integracją modeli danych grafowych w zarządzaniu zasobami wodnymi wskazują na
+korzyści płynące z zastosowania grafowych modeli danych w analizie skomplikowanych systemów hydraulicznych .
+NVIDIA w swoim blogu technicznym omawia techniki i oceny związane z wykorzystaniem LLM do tworzenia grafów
+wiedzy, co może być istotne w kontekście reprezentacji infrastruktury liniowej .
+4. Cel pracy
+Celem pracy jest opracowanie i ocena systemu wykorzystującego LLM do automatycznego generowania grafów
+infrastruktury liniowej na podstawie opisów tekstowych. System ten powinien umożliwiać identyfikację kluczowych
+elementów infrastruktury, relacji między nimi oraz ich reprezentację w bazach grafowych, co pozwoli na efektywną
+analizę i wizualizację.
+5. Zakres pracy
+1. Analiza możliwości LLM w ekstrakcji informacji: Ocena zdolności modeli językowych do identyfikacji
+elementów infrastruktury i relacji na podstawie tekstów opisowych.
+2. Projektowanie procesu konwersji: Opracowanie metody przekształcania wyekstrahowanych informacji w
+struktury grafowe.
+3. Implementacja systemu: Stworzenie prototypu integrującego LLM z bazą grafową (np. Neo4j) w celu
+automatycznego generowania i analizy grafów infrastruktury.
+4. Ewaluacja systemu: Testowanie dokładności i efektywności systemu na rzeczywistych danych
+infrastrukturalnych oraz analiza wyników.
+6. Metodologia
+Praca będzie opierać się na eksperymentalnym podejściu, obejmującym:
+• Wybór odpowiedniego LLM: Analiza dostępnych modeli językowych pod kątem ich zdolności do ekstrakcji
+informacji z tekstów technicznych.
+• Przygotowanie zbioru danych: Zgromadzenie opisów tekstowych dotyczących infrastruktury liniowej oraz
+ich ręczna anotacja w celu stworzenia zbioru referencyjnego.
+• Implementacja prototypu: Stworzenie systemu przekształcającego teksty na grafy oraz ich integracja z bazą
+grafową.
+• Testowanie i analiza wyników: Porównanie wygenerowanych grafów z referencyjnymi pod kątem
+dokładności odwzorowania oraz ocena efektywności systemu.
+7. Oczekiwane rezultaty
+Oczekuje się, że praca dostarczy:
+• Oceny skuteczności LLM w ekstrakcji informacji o infrastrukturze liniowej: Wskazanie mocnych i słabych
+stron modeli w tym kontekście.
+• Metody konwersji opisów tekstowych na grafy: Opracowanie procesu transformacji tekstu na struktury
+grafowe.
+• Prototypu systemu: Działającego rozwiązania integrującego LLM z bazą grafową, umożliwiającego
+automatyczne generowanie i analizę grafów infrastruktury.
+• Analizy wyników: Wskazanie potencjalnych obszarów zastosowań oraz ograniczeń opracowanego systemu.
+8. Podsumowanie
+Praca ma na celu zbadanie potencjału dużych modeli językowych w kontekście automatycznego tworzenia
+reprezentacji grafowych infrastruktury liniowej. Efektem końcowym będzie system umożliwiający efektywną analizę i
+wizualizację takich struktur, co może znaleźć zastosowanie w planowaniu, zarządzaniu oraz optymalizacji sieci
+infrastrukturalnych.

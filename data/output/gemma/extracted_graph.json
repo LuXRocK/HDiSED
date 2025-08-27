@@ -1,0 +1,60 @@
+{
+  "elements": [
+    {
+      "id": "Z1",
+      "type": "Zbiornik Wody",
+      "description": "Główny Zbiornik Wody"
+    },
+    {
+      "id": "P1",
+      "type": "Pompownia",
+      "description": "Pompownia Głóczna"
+    },
+    {
+      "id": "R1",
+      "type": "Rurociąg",
+      "description": "Rurociąg Północny"
+    },
+    {
+      "id": "R2",
+      "type": "Rurociąg",
+      "description": "Rurociąg Południowy"
+    },
+    {
+      "id": "ZAW1",
+      "type": "Zawór",
+      "description": "Zawór bezpieczeństwa"
+    },
+    {
+      "id": "SUW1",
+      "type": "Stacja Uzdatniania Wody",
+      "description": "Stacja Uzdatniania Wody"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Z1",
+      "target": "P1",
+      "label": "POŁĄCZONY_Z",
+      "context": "Główny Zbiornik Wody (Z1), który jest połączony z Pompownią Główną (P1)."
+    },
+    {
+      "source": "P1",
+      "target": "R1",
+      "label": "POŁĄCZONY_Z",
+      "context": "Pompownia Głóczna (P1), która tłoczy wodę do Rurociągu Północnego (R1)."
+    },
+    {
+      "source": "P1",
+      "target": "R2",
+      "label": "POŁĄCZONY_Z",
+      "context": "Pompownia Głóczna (P1), która tłoczy wodę do Rurociągu Południowego (R2)."
+    },
+    {
+      "source": "R2",
+      "target": "P2",
+      "label": "POŁĄCZONY_Z",
+      "context": "Rurociąg Południowy (R2), który łączy się z mniejszą pompownią wspomagającą P2."
+    }
+  ]
+}
