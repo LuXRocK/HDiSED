@@ -1,8 +1,6 @@
 from pydantic import BaseModel, Field
 from typing import List, Literal
 
-# A list of common infrastructure component types.
-# This helps the LLM to categorize the extracted elements.
 NodeType = Literal[
     "Zbiornik Wody",
     "Pompownia",

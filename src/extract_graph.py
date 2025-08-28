@@ -4,7 +4,6 @@ import argparse
 import os
 import sys
 
-# Add src directory to path to allow importing schemas
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from schemas import InfrastructureGraph, NodeType
@@ -20,7 +19,6 @@ def extract_graph_from_text(model_name: str, input_path: str, output_dir: str):
     """
     print(f"--- Starting extraction with model: {model_name} ---")
 
-    # 1. Read the input text
     try:
         with open(input_path, 'r', encoding='utf-8') as f:
             text_content = f.read()
@@ -32,12 +30,10 @@ def extract_graph_from_text(model_name: str, input_path: str, output_dir: str):
         print(f"An error occurred while reading the file: {e}")
         return
 
-    # 2. Prepare the output directory
     model_output_dir = os.path.join(output_dir, model_name)
     os.makedirs(model_output_dir, exist_ok=True)
     output_path = os.path.join(model_output_dir, 'extracted_graph.json')
 
-    # Get the list of allowed node types for the prompt
     allowed_types = ", ".join(f'"{t}"' for t in NodeType.__args__)
 
     prompt = f'''
@@ -80,7 +76,6 @@ Wygeneruj pełny obiekt JSON na podstawie powyższego tekstu. Upewnij się, że 
 
     try:
         print("Sending request to Ollama model... (to może potrwać)")
-        # 4. Call the Ollama API
         response = ollama.chat(
             model=model_name,
             messages=[{'role': 'user', 'content': prompt}],
@@ -91,28 +86,23 @@ Wygeneruj pełny obiekt JSON na podstawie powyższego tekstu. Upewnij się, że 
         response_content = response['message']['content']
         print("Received response from Ollama.")
 
-        # 5. Validate the JSON against the Pydantic model
         graph_data = InfrastructureGraph.model_validate_json(response_content)
         
-        # 6. Save the output
         with open(output_path, 'w', encoding='utf-8') as f:
-            # First, dump the Pydantic model to a Python dictionary
             graph_dict = graph_data.model_dump()
-            # Then, use the standard json library to write to the file with correct encoding
             json.dump(graph_dict, f, indent=2, ensure_ascii=False)
         
         print(f"Successfully validated and saved the extracted graph to: {output_path}")
 
     except Exception as e:
         print(f"An error occurred during the extraction process: {e}")
-        # If there was an error, save the raw response for debugging
         if 'response_content' in locals():
             error_path = os.path.join(model_output_dir, 'error_response.json')
             with open(error_path, 'w', encoding='utf-8') as f:
                 f.write(response_content)
             print(f"Raw model response saved to {error_path} for debugging.")
 
-    print(f"--- Finished extraction with model: {model_name} ---\\n")
+    print(f"--- Finished extraction with model: {model_name} ---\n")
 
 
 if __name__ == "__main__":
@@ -123,7 +113,6 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    # It's good practice to use absolute paths
     abs_input_file = os.path.abspath(args.input_file)
     abs_output_dir = os.path.abspath(args.output_dir)
 
