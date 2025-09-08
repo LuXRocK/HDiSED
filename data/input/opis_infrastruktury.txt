@@ -1,1 +1,7 @@
-System wodociągowy składa się z Głównego Zbiornika Wody (Z1), który jest połączony z Pompownią Główną (P1). Pompownia P1 tłoczy wodę do dwóch głównych nitek rurociągu. Pierwsza nitka, Rurociąg Północny (R1), dostarcza wodę do Osiedla A. Na Rurociągu Północnym zainstalowany jest zawór bezpieczeństwa ZAW1. Druga nitka, Rurociąg Południowy (R2), zaopatruje Osiedle B oraz strefę przemysłową. Rurociąg R2 łączy się z mniejszą pompownią wspomagającą P2 przed dotarciem do strefy przemysłowej. Główny Zbiornik Wody (Z1) jest również zasilany ze Stacji Uzdatniania Wody (SUW1).
+In the city, there is a main pumping station that draws water from the river. From the station, two transmission mains branch out: a northern main and a southern main.
+
+The northern main delivers water to a storage reservoir on a hill, from which water is distributed further through the northern distribution network. This network supplies a residential neighborhood, where there is also a fire hydrant and household service connections.
+
+The southern main delivers water directly to the southern distribution network, which serves an industrial zone. On this network, there is an isolation valve to shut off the section in case of emergency.
+
+Additionally, the system includes a flow measurement point located right after the pumping station to monitor the amount of water being pumped.
