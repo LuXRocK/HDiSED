@@ -1,7 +1,7 @@
-In the city, there is a main pumping station that draws water from the river. From the station, two transmission mains branch out: a northern main and a southern main.
+W mieście znajduje się Stacja Pomp Główna pobierająca wodę z rzeki. Ze stacji odchodzą dwa główne przewody przesyłowe: Przewód Północny i Przewód Południowy.
 
-The northern main delivers water to a storage reservoir on a hill, from which water is distributed further through the northern distribution network. This network supplies a residential neighborhood, where there is also a fire hydrant and household service connections.
+Przewód Północny doprowadza wodę do Zbiornika Retencyjnego, z którego woda rozprowadzana jest dalej przez Sieć Dystrybucyjną Północną. Ta sieć zasila Osiedle Mieszkaniowe, a dodatkowo podłączony jest do niej Hydrant Północny.
 
-The southern main delivers water directly to the southern distribution network, which serves an industrial zone. On this network, there is an isolation valve to shut off the section in case of emergency.
+Przewód Południowy doprowadza wodę bezpośrednio do Sieci Dystrybucyjnej Południowej, która obsługuje Strefę Przemysłową. Na tej sieci znajduje się Zawór Południowy, który umożliwia odcięcie dopływu wody w razie awarii.
 
-Additionally, the system includes a flow measurement point located right after the pumping station to monitor the amount of water being pumped.
+Dodatkowo system posiada Punkt Pomiarowy Przepływu, umieszczony zaraz za Stacją Pomp Główną, który monitoruje ilość tłoczonej wody.

@@ -8,32 +8,42 @@
     {
       "id": "P1",
       "type": "Pompownia",
-      "description": "Pompownia Główna"
+      "description": "Stacja Pomp Główna"
     },
     {
       "id": "R1",
       "type": "Rurociąg",
-      "description": "Rurociąg Północny"
+      "description": "Przewód Północny"
     },
     {
       "id": "R2",
       "type": "Rurociąg",
-      "description": "Rurociąg Południowy"
+      "description": "Przewód Południowy"
     },
     {
-      "id": "P2",
-      "type": "Pompownia",
-      "description": "Mniejsza Pompownia Wspomagająca"
+      "id": "S1",
+      "type": "Zawór",
+      "description": "Hydrant Północny"
     },
     {
-      "id": "SUW1",
-      "type": "Stacja Uzdatniania Wody",
-      "description": "Stacja Uzdatniania Wody"
+      "id": "S2",
+      "type": "Zawór",
+      "description": "Zawór Południowy"
     },
     {
-      "id": "ZAW1",
-      "type": "Zawór Bezpieczeństwa",
-      "description": "Zawór Bezpieczeństwa na Rurociągu Północnym"
+      "id": "O1",
+      "type": "Osiedle",
+      "description": "Osiedla A"
+    },
+    {
+      "id": "P3",
+      "type": "Strefa Przemysłowa",
+      "description": "Strefa Przemysłowa"
+    },
+    {
+      "id": "I1",
+      "type": "Inne",
+      "description": "Punkt Pomiarowy Przepływu"
     }
   ],
   "relationships": [
@@ -44,52 +54,34 @@
       "context": "Główny Zbiornik Wody (Z1), który jest połączony z Pompownią Główną (P1)."
     },
     {
-      "source": "P1",
-      "target": "R1",
-      "label": "POŁĄCZONY_Z",
-      "context": "Pompownia Główna (P1) tłoczy wodę do dwóch głównych nitek rurociągu, z których jedna to Rurociąg Północny (R1)."
-    },
-    {
-      "source": "P1",
-      "target": "R2",
-      "label": "POŁĄCZONY_Z",
-      "context": "Pompownia Główna (P1) tłoczy wodę do dwóch głównych nitek rurociągu, z których druga to Rurociąg Południowy (R2)."
-    },
-    {
       "source": "R1",
-      "target": "A",
-      "label": "DOSTARCZANY_DO",
-      "context": "Rurociąg Północny (R1) dostarcza wodę do Osiedla A."
+      "target": "Z2",
+      "label": "POŁĄCZONY_Z",
+      "context": "Przewód Północny (R1), który doprowadza wodę do Zbiornika Retencyjnego (Z2)."
+    },
+    {
+      "source": "S1",
+      "target": "O1",
+      "label": "POŁĄCZONY_Z",
+      "context": "Hydrant Północny (S1), który jest podłączony do Osiedla Mieszkaniowego (O1)."
     },
     {
       "source": "R2",
-      "target": "B",
-      "label": "DOSTARCZANY_DO",
-      "context": "Rurociąg Południowy (R2) zaopatruje Osiedle B."
-    },
-    {
-      "source": "R2",
-      "target": "S",
-      "label": "DOSTARCZANY_DO",
-      "context": "Rurociąg Południowy (R2) zaopatruje strefę przemysłową S."
-    },
-    {
-      "source": "P2",
-      "target": "S",
+      "target": "P3",
       "label": "POŁĄCZONY_Z",
-      "context": "Mniejsza Pompownia Wspomagająca (P2) jest połączona z Rurociągiem Południowym (R2) przed dotarciem do strefy przemysłowej S."
+      "context": "Przewód Południowy (R2), który doprowadza wodę do Strefy Przemysłowej (P3)."
     },
     {
-      "source": "Z1",
-      "target": "SUW1",
+      "source": "S2",
+      "target": "P3",
       "label": "POŁĄCZONY_Z",
-      "context": "Główny Zbiornik Wody (Z1) jest również zasilany ze Stacji Uzdatniania Wody (SUW1)."
+      "context": "Zawór Południowy (S2), który umożliwia odcięcie dopływu wody do Strefy Przemysłowej (P3)."
     },
     {
-      "source": "R1",
-      "target": "ZAW1",
-      "label": "MAŁY_ZAWÓR",
-      "context": "Na Rurociągu Północnym (R1) zainstalowany jest zawór bezpieczeństwa ZAW1."
+      "source": "I1",
+      "target": "P1",
+      "label": "POŁĄCZONY_Z",
+      "context": "Punkt Pomiarowy Przepływu (I1), który monitoruje ilość tłoczonej wody zaraz za Stacją Pomp Główną (P1)."
     }
   ]
 }

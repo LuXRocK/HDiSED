@@ -8,27 +8,37 @@
     {
       "id": "P1",
       "type": "Pompownia",
-      "description": "Pompownia Głóczna"
+      "description": "Stacja Pomp Główna"
+    },
+    {
+      "id": "A",
+      "type": "Osiedle",
+      "description": "Osiedla A"
+    },
+    {
+      "id": "P2",
+      "type": "Pompownia",
+      "description": "Mniejsza pompownia P2"
     },
     {
       "id": "R1",
       "type": "Rurociąg",
-      "description": "Rurociąg Północny"
+      "description": "Przewód Północny"
     },
     {
       "id": "R2",
       "type": "Rurociąg",
-      "description": "Rurociąg Południowy"
+      "description": "Sieć Dystrybucyjna Północna"
     },
     {
-      "id": "ZAW1",
-      "type": "Zawór",
-      "description": "Zawór bezpieczeństwa"
+      "id": "R3",
+      "type": "Rurociąg",
+      "description": "Przewód Południowy"
     },
     {
-      "id": "SUW1",
-      "type": "Stacja Uzdatniania Wody",
-      "description": "Stacja Uzdatniania Wody"
+      "id": "R4",
+      "type": "Rurociąg",
+      "description": "Sieć Dystrybucyjna Południowa"
     }
   ],
   "relationships": [
@@ -41,20 +51,50 @@
     {
       "source": "P1",
       "target": "R1",
-      "label": "POŁĄCZONY_Z",
-      "context": "Pompownia Głóczna (P1), która tłoczy wodę do Rurociągu Północnego (R1)."
+      "label": "POBIERANIE",
+      "context": "Pompownia Głójna (P1) pobiera wodę z rzeki."
+    },
+    {
+      "source": "R1",
+      "target": "R2",
+      "label": "DOSTAWIANIE",
+      "context": "Przewód Północny (R1) doprowadza wodę do Zbiornika Retencyjnego."
+    },
+    {
+      "source": "R2",
+      "target": "A",
+      "label": "DOSTAWIANIE",
+      "context": "Sieć Dystrybucyjna Północna (R2) zasila Osiedle Mieszkaniowe (A)."
+    },
+    {
+      "source": "R1",
+      "target": "R4",
+      "label": "DOSTAWIANIE",
+      "context": "Przewód Północny (R1) doprowadza wodę bezpośrednio do Sieci Dystrybucyjnej Południowej."
+    },
+    {
+      "source": "R3",
+      "target": "R4",
+      "label": "DOSTAWIANIE",
+      "context": "Przewód Południowy (R3) doprowadza wodę bezpośrednio do Sieci Dystrybucyjnej Południowej."
+    },
+    {
+      "source": "P1",
+      "target": "R3",
+      "label": "POBIERANIE",
+      "context": "Pompownia Głójna (P1) pobiera wodę z rzeki."
+    },
+    {
+      "source": "R4",
+      "target": "P2",
+      "label": "POBIERANIE",
+      "context": "Sieć Dystrybucyjna Południowa (R4) obsługuje Mniejszą Pompę P2."
     },
     {
       "source": "P1",
       "target": "R2",
-      "label": "POŁĄCZONY_Z",
-      "context": "Pompownia Głóczna (P1), która tłoczy wodę do Rurociągu Południowego (R2)."
-    },
-    {
-      "source": "R2",
-      "target": "P2",
-      "label": "POŁĄCZONY_Z",
-      "context": "Rurociąg Południowy (R2), który łączy się z mniejszą pompownią wspomagającą P2."
+      "label": "MONITORYNG",
+      "context": "Stacja Pomp Głójna (P1) posiada Punkt Pomiarowy Przepływu, który monitoruje ilość tłoczonej wody."
     }
   ]
 }

@@ -52,7 +52,22 @@ Obiekt JSON musi zawierać dwa klucze: "elements" i "relationships".
 BARDZO WAŻNE ZASADY:
 *   Używaj DOKŁADNIE tych nazw kluczy: "id", "type", "description", "source", "target", "label", "context". Nie dodawaj spacji ani innych znaków.
 *   Wartość pola `type` MUSI być jedną z dozwolonych wartości. Na przykład, jeśli w tekście jest "Osiedla A", `type` powinien być "Osiedle". Jeśli jest "Mniejsza pompownia P2", `type` powinien być "Pompownia".
+*   "Stacja Pomp" i "Pompownia" to ten sam typ: "Pompownia".
 *   Cała odpowiedź musi być jednym obiektem JSON. Nie dodawaj żadnych dodatkowych znaków, słów ani wartości (takich jak `false`) poza obiektem JSON.
+
+Przykłady mapowania:
+*   "Stacja Pomp Główna" -> "Pompownia"
+*   "Pompownia Główna" -> "Pompownia"
+*   "Przewód Północny" -> "Rurociąg"
+*   "Zbiornik Retencyjny" -> "Zbiornik Wody"
+*   "Sieć Dystrybucyjna Północna" -> "Rurociąg"
+*   "Osiedle Mieszkaniowe" -> "Osiedle"
+*   "Hydrant Północny" -> "Zawór"
+*   "Przewód Południowy" -> "Rurociąg"
+*   "Sieć Dystrybucyjna Południowa" -> "Rurociąg"
+*   "Strefa Przemysłowa" -> "Strefa Przemysłowa"
+*   "Zawór Południowy" -> "Zawór"
+*   "Punkt Pomiarowy Przepływu" -> "Inne"
 
 Przykład:
 {{
@@ -80,7 +95,7 @@ Wygeneruj pełny obiekt JSON na podstawie powyższego tekstu. Upewnij się, że 
             model=model_name,
             messages=[{'role': 'user', 'content': prompt}],
             format='json',
-            options={'temperature': 0},
+            options={'temperature': 0, 'timeout': 300},
         )
 
         response_content = response['message']['content']

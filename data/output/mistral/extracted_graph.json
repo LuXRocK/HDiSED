@@ -1,78 +1,115 @@
 {
   "elements": [
     {
-      "id": "Z1",
+      "id": "SPG",
+      "type": "Pompownia",
+      "description": "Stacja Pomp Główna"
+    },
+    {
+      "id": "PP",
+      "type": "Rurociąg",
+      "description": "Przewód Północny"
+    },
+    {
+      "id": "ZR",
       "type": "Zbiornik Wody",
-      "description": "Główny Zbiornik Wody"
+      "description": "Zbiornik Retencyjny"
     },
     {
-      "id": "P1",
-      "type": "Pompownia",
-      "description": "Pompownia Główna"
-    },
-    {
-      "id": "R1",
+      "id": "SDP",
       "type": "Rurociąg",
-      "description": "Rurociąg Północny"
+      "description": "Sieć Dystrybucyjna Północna"
     },
     {
-      "id": "R2",
+      "id": "OM",
+      "type": "Osiedle",
+      "description": "Osiedle Mieszkaniowe"
+    },
+    {
+      "id": "HP",
+      "type": "Zawór",
+      "description": "Hydrant Północny"
+    },
+    {
+      "id": "PP2",
       "type": "Rurociąg",
-      "description": "Rurociąg Południowy"
+      "description": "Przewód Południowy"
     },
     {
-      "id": "P2",
-      "type": "Pompownia",
-      "description": "Pompownia Wspomagająca P2"
+      "id": "SDS",
+      "type": "Rurociąg",
+      "description": "Sieć Dystrybucyjna Południowa"
     },
     {
-      "id": "SUW1",
-      "type": "Stacja Uzdatniania Wody",
-      "description": "Stacja Uzdatniania Wody 1"
+      "id": "SP",
+      "type": "Strefa Przemysłowa",
+      "description": "Strefa Przemysłowa"
+    },
+    {
+      "id": "ZP",
+      "type": "Zawór",
+      "description": "Zawór Południowy"
+    },
+    {
+      "id": "PPM",
+      "type": "Inne",
+      "description": "Punkt Pomiarowy Przepływu"
     }
   ],
   "relationships": [
     {
-      "source": "Z1",
-      "target": "P1",
+      "source": "SPG",
+      "target": "PP",
+      "label": "WYJEHUJACY_Z",
+      "context": "Stacja Pomp Główna (SPG), która jest wyjściem dla Przewodu Północnego (PP)."
+    },
+    {
+      "source": "PP",
+      "target": "ZR",
+      "label": "DOSTARCZAJACY_DO",
+      "context": "Przewód Północny (PP), który doprowadza wodę do Zbiornika Retencyjnego (ZR)."
+    },
+    {
+      "source": "ZR",
+      "target": "SDP",
       "label": "POŁĄCZONY_Z",
-      "context": "Główny Zbiornik Wody (Z1), który jest połączony z Pompownią Główną (P1)."
+      "context": "Zbiornik Retencyjny (ZR), który jest połączony z Siecią Dystrybucyjną Północną (SDP)."
     },
     {
-      "source": "P1",
-      "target": "R1",
-      "label": "TŁOCZY_WODĘ",
-      "context": "Pompownia P1 tłoczy wodę do Rurociągu Północnego (R1)."
+      "source": "SDP",
+      "target": "OM",
+      "label": "ZASILAJACY",
+      "context": "Sieć Dystrybucyjna Północna (SDP), która zasila Osiedle Mieszkaniowe (OM)."
     },
     {
-      "source": "R1",
-      "target": "A",
-      "label": "DOSTARCZA_WODĘ",
-      "context": "Rurociąg Północny (R1) dostarcza wodę do Osiedla A."
+      "source": "SDP",
+      "target": "HP",
+      "label": "POŁĄCZONY_Z",
+      "context": "Sieć Dystrybucyjna Północna (SDP), która jest połączona z Hydrantem Północnym (HP)."
     },
     {
-      "source": "R1",
-      "target": "ZAW1",
-      "label": "MASZYSTA_BEZPIECZEŃSTWA",
-      "context": "Na Rurociągu Północnym zainstalowany jest zawór bezpieczeństwa ZAW1."
+      "source": "PP2",
+      "target": "SDS",
+      "label": "DOSTARCZAJACY_DO",
+      "context": "Przewód Południowy (PP2), który doprowadza wodę bezpośrednio do Sieci Dystrybucyjnej Południowej (SDS)."
     },
     {
-      "source": "Z1",
-      "target": "SUW1",
-      "label": "ZASILANY_ZE",
-      "context": "Główny Zbiornik Wody (Z1) jest zasilany ze Stacji Uzdatniania Wody (SUW1)."
+      "source": "SDS",
+      "target": "SP",
+      "label": "OBSLUGAJACY",
+      "context": "Sieć Dystrybucyjna Południowa (SDS), która obsługuje Strefę Przemysłową (SP)."
     },
     {
-      "source": "R2",
-      "target": "B",
-      "label": "DOSTARCZA_WODĘ",
-      "context": "Rurociąg Południowy (R2) zaopatruje Osiedle B."
+      "source": "SDS",
+      "target": "ZP",
+      "label": "POŁĄCZONY_Z",
+      "context": "Sieć Dystrybucyjna Południowa (SDS), która jest połączona z Zaworem Południowym (ZP)."
     },
     {
-      "source": "R2",
-      "target": "Strefa Przemysłowa",
-      "label": "DOSTARCZA_WODĘ",
-      "context": "Rurociąg Południowy (R2) łączy się z mniejszą pompownią wspomagającą P2 przed dotarciem do strefy przemysłowej."
+      "source": "SPG",
+      "target": "PPM",
+      "label": "POMONITORUJACY",
+      "context": "Stacja Pomp Główna (SPG), która monitoruje ilość tłoczonej wody za pomocą Punktu Pomiarowego Przepływu (PPM)."
     }
   ]
 }

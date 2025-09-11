@@ -1,0 +1,75 @@
+{
+  "elements": [
+    {
+      "id": "Z1",
+      "type": "Pompownia",
+      "description": "Stacja Pomp Główna"
+    },
+    {
+      "id": "P2",
+      "type": "Pompownia",
+      "description": "Mniejsza pompownia P2"
+    },
+    {
+      "id": "A",
+      "type": "Osiedle",
+      "description": "Osiedla A"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Z1",
+      "target": "P1",
+      "label": "POŁĄCZONY_Z",
+      "context": "Stacja Pomp Główna (Z1), która jest połączona z Pompownią Głównej (P1)."
+    },
+    {
+      "source": "P2",
+      "target": "A",
+      "label": "POŁĄCZONY_W",
+      "context": "Mniejsza pompownia P2, która jest podłączona do Osiedła A."
+    },
+    {
+      "source": "Przewód Północny",
+      "target": "Zbiornika Retencyjnego",
+      "label": "POŁĄCZONY_DO",
+      "context": "Przewód Północny prowadzi wodor do Zbiornika Retencyjnego."
+    },
+    {
+      "source": "Sieć Dystrybucyjna Północna",
+      "target": "Osiedla A",
+      "label": "POŁĄCZONY_DO",
+      "context": "Sieć Dystrybucyjna Północna zasługuje za odpowiedź na wodę dla Osiedła A."
+    },
+    {
+      "source": "Hydrant Północny",
+      "target": "Osiedla A",
+      "label": "POŁĄCZONY_DO",
+      "context": "Hydrant Północny jest podłączony do Osiedła A w celu przesyłu wodnej."
+    },
+    {
+      "source": "Przewód Południowy",
+      "target": "Sieci Dystrybucyjnej Południowej",
+      "label": "POŁĄCZONY_DO",
+      "context": "Przewód Południowy prowadzi wodor do Sieci Dystrybucyjnej Południowej, która obsługuje Strefę Przemysłową."
+    },
+    {
+      "source": "Sieć Dystrybucyjna Południowa",
+      "target": "Strefa Przemysłowa",
+      "label": "POŁĄCZONY_DO",
+      "context": "Sieci Dystrybucyjnej Południowej obsługuje Strefę Przemysłową."
+    },
+    {
+      "source": "Zawór Południowy",
+      "target": "Stacja Pomp Główna",
+      "label": "POŁĄCZONY_DO",
+      "context": "Zawór Południowy odciera dopływu wody w razie awarii, co jest przyczyną dla Stacji Pomp Głównej."
+    },
+    {
+      "source": "Punkt Pomiarowy Przepływu",
+      "target": "Stacja Pomp Główna",
+      "label": "POŁĄCZONY_DO",
+      "context": "Punkt Pomiarowy Przepływu znajduje się w razie odcięcia dopływu wody przez Zawór Południowy, co jest przyczyną dla Stacji Pomp Głównej."
+    }
+  ]
+}
